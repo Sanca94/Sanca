@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans' , sans-serif;
+	font-weight: 400;
+}
+
+
+.logo{
+	width: 5%;
+	height: 5%;
+	float: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-left: 50px;
+	
+	
+}
+
+.header {
+	width: 100%;
+	margin: auto;
+	background: #ff471a;
+	content: '';
+	display: table;
+	clear: both;
+
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+	margin: 50px;
+	padding: 0px;
+}
+
+
+nav li {
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	width: 100px;
+}
+
+nav a {
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+nav a:hover {
+	color: #000;
+ }
+
+.hero img {
+
+	background-size: 30%;
+
+}
